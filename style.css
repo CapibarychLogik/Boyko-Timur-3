@@ -1,20 +1,20 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(212, 0, 255);
+    background-color: rgb(255, 0, 119);
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(0, 183, 255);
 }
 
 nav {
-    border-top: 3px solid blue;
+    border-top: 3px solid rgb(0, 217, 255);
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid blue;
-    background-color: rgb(210, 255, 9);
+    border-bottom: 3px solid rgb(0, 183, 255);
+    background-color: rgb(9, 255, 21);
 }
 
 nav a {
@@ -34,17 +34,21 @@ nav a {
 }
 
 h2 {
-    color: rgb(195, 0, 255);
+    color: rgb(145, 255, 0);
+    width:400px;
     margin-left: 100px;
     font-size: 30px;
     font-family: cursive;
-    background-color: rgb(245, 191, 121);
+    background-color: rgb(140, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .catalog a {
     text-decoration: none;
-    color: black;
-    border-bottom: 1px dotted black;
+    color: rgb(13, 58, 255);
+    border-bottom: 1px dotted rgb(58, 0, 151);
     font-size: 20px;
 }
 
